@@ -97,19 +97,24 @@ button {
 	padding: 50px 500px 50px 500px;
 	display: flex;
 	flex-flow: column wrap;
-	
+	justify-content: center;
+	align-items: center;
 }
 
 .quote-section .text {
 	color: #1F2937;
 	font-style: italic;
+	width: 365px;
 	display: flex;
 	justify-content: center;
+	margin-bottom: 5px;
 }
 
 .quote-section .author {
+	width: 365px;
 	display: flex;
 	justify-content: flex-end;
+
 }
 
 .action-section {
