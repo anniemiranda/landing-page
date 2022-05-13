@@ -6,13 +6,13 @@ body {
 	flex-flow: column nowrap;
 	justify-content: space-between;
 	align-items: space-between;
-
+	background-color: #e2e6de;
 
 }
 
 .header, .hero {
-	background-color: #1F2937;
-	color: #F9FAF8;
+	background-color: #729EA1;
+	color: #e2e6de;
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
@@ -34,12 +34,24 @@ ul {
 
 a {
 	text-decoration: none;
-	color: #F9FAF8;
+	color: #e2e6de;
+}
+
+li .about {
+	color: #E79186;
+}
+
+li .instagram {
+	color: #DFBE99;
+}
+
+li .tiktok {
+	color: #B5BD89;
 }
 
 .text {
 	font-size: 18px;
-	color: #E5E7EB;
+	color: #e2e6de;
 }
 
 .hero, .center-section {
@@ -50,6 +62,7 @@ h1 {
 	margin: 0;
 	padding: 0;
 	font-size: 48px;
+	color: #D8B083;
 }
 
 .hero-left {
@@ -57,7 +70,7 @@ h1 {
 	flex-flow: column nowrap;
 	padding-right: 20px;
 	gap: 15px;
-
+	color: #EC9192;
 }
 
 .hero-photo {
@@ -89,11 +102,21 @@ button {
 	gap: 30px;
 }
 
+.random-info-header {
+	font-size: x-large;
+	color: #ba7f3b;
+}
+
 .info-cards {
 	display: flex;
 	flex-flow: row wrap;
 	align-items: center;
 	justify-content: center;
+}
+
+.info-cards .text {
+	color: #729ea1;
+	margin: 10px 0;
 }
 
 .icon {
@@ -103,7 +126,7 @@ button {
 }
 
 .quote-section {
-	background-color: #E5E7EB;
+	background-color: #e9d4bf;
 	padding: 50px 0 50px 0;
 	display: flex;
 	flex-flow: column wrap;
@@ -112,7 +135,7 @@ button {
 }
 
 .quote-section .text {
-	color: #1F2937;
+	color: #ba7f3b;
 	font-style: italic;
 	width: 365px;
 	display: flex;
@@ -124,14 +147,19 @@ button {
 	width: 365px;
 	display: flex;
 	justify-content: flex-end;
+	color: #8c5f2c;
 
 }
 
 .action-section {
-	background-color: #3882F6;
-	margin: 30px 170px 30px 170px;
+	padding: 50px 200px 50px 200px;
+}
+
+.action-box {
+	background-color: #b5bd89;
+	margin: 0;
 	padding: 20px 30px 20px 30px;
-	border-radius: 10px;
+	border-radius: 12px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -139,17 +167,29 @@ button {
 
 .call-to-action {
 	font-weight: bold;
-	color: #E5E7EB;
+	color: #e79186;
 	font-size: larger;
 }
 
 .footer {
 	margin-top: auto;
-	background-color: #1f2937;
+	background-color: #729EA1;
 	font-size: 24px;
-	color: #F9FAF8;
+	color: #e2e6de;
 	display: flex;
 	flex-shrink: 0;
 	justify-content: center;
 	padding: 18px;
+}
+
+.treat-button {
+	background-color: #e79186;
+	padding: 10px 35px;
+	color: #e2e6de;
+	border-radius: 10px;
+	width: 100px;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
 }
